@@ -10,5 +10,9 @@ public class GitController {
 		System.out.println(su1+su2);
 		return su1+su2;
 	}
+	
+	public String concatTest(String a, String b) {
+		return a+b;
+	}
 
 }
