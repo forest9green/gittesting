@@ -40,7 +40,10 @@ public class Person {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + ", email=" + email + "]";
+	}
 
 }
